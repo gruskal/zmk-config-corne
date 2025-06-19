@@ -180,12 +180,12 @@
 
         L3 {
             bindings = <&to 3>;
-            key-positions = <37 26>;
+            key-positions = <37 27>;
         };
 
         L4 {
             bindings = <&to 4>;
-            key-positions = <37 27>;
+            key-positions = <37 28>;
         };
     };
 
@@ -266,12 +266,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        l3 {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
