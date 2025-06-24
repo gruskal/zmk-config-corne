@@ -130,17 +130,17 @@
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <7 19>;
+            key-positions = <7 6>;
         };
 
         minus {
             bindings = <&kp KP_MINUS>;
-            key-positions = <31 19>;
+            key-positions = <19 18>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
-            key-positions = <30 18>;
+            key-positions = <30 31>;
         };
 
         leftbrack {
@@ -186,6 +186,31 @@
         L4 {
             bindings = <&to 4>;
             key-positions = <37 28>;
+        };
+
+        leftBrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <7 8>;
+        };
+
+        rightBrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <8 9>;
+        };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <10 11>;
+        };
+
+        lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <32 33>;
+        };
+
+        gt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <33 34>;
         };
     };
 
