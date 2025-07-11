@@ -223,6 +223,11 @@
             bindings = <&kp EXCLAMATION>;
             key-positions = <13 1>;
         };
+
+        amp {
+            bindings = <&kp AMPS>;
+            key-positions = <7 19>;
+        };
     };
 
     //
