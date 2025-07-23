@@ -74,11 +74,6 @@
     combos {
         compatible = "zmk,combos";
 
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <16 19>;
-        };
-
         perc {
             bindings = <&kp PERCENT>;
             key-positions = <5 17>;
@@ -227,6 +222,11 @@
         amp {
             bindings = <&kp AMPS>;
             key-positions = <7 19>;
+        };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <16 19>;
         };
     };
 
